@@ -39,7 +39,7 @@ const processEntries = () => {
 
         const formattedTotal = formatter.format(total);
 
-        $("#Total").value = formattedTotal;
+        $("#total").value = formattedTotal;
     }
 };
 
@@ -47,7 +47,7 @@ const processEntries = () => {
 var clearEntries = () => {
     $("#salesAmount").value = "";
     $("#taxPercent").value = "";
-    $("#Total").value = "";
+    $("#total").value = "";
 };
 
 document.addEventListener("DOMContentLoaded", () => {
