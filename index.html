@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="tax.css">
+</head>
+<body>
+    <main>
+        <h1>Tax Calculator</h1>
+        <div>
+            <label for="salesAmount">Sales Amount:</label>
+            <input type="text" id="salesAmount">
+        </div>
+        <div>
+            <label for="taxPercent">Tax Percent:</label>
+            <input type="text" id="taxPercent">
+        </div>
+        <div>
+            <label for="Total">Total:</label>
+            <input type="text" id="Total" disabled>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate Total">
+        </div>
+    </main>
+    <script src="tax.js"></script>   
+</body>
+</html>
